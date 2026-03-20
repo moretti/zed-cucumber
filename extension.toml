@@ -1,0 +1,11 @@
+id = "cucumber-syntax"
+name = "Cucumber Syntax"
+version = "0.0.1"
+schema_version = 1
+authors = ["moretti"]
+description = "Gherkin syntax highlighting for Cucumber .feature files"
+repository = "https://github.com/moretti/zed-cucumber"
+
+[grammars.gherkin]
+repository = "https://github.com/binhtran432k/tree-sitter-gherkin"
+commit = "1a709aebeecbe81bd70dfd6ea784894844be1511"
